@@ -1,4 +1,10 @@
 package cn.tedu.cloud_note.service;
 
-public class BookService {
+import cn.tedu.cloud_note.entity.Book;
+import cn.tedu.cloud_note.util.NoteResult;
+
+import java.util.List;
+
+public interface BookService {
+    NoteResult<List<Book>> loadUserBooks(String userId);
 }
