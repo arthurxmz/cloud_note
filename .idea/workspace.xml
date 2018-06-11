@@ -6,476 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d990d8-5973-445a-8578-0c75af62ab85" name="Default" comment="云笔记">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b916fa23-6110-4c12-8867-c72a86e42ee5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/cloud_note_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/controller/UserLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/controller/UserRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/NoteBookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Change_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/activity.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/activity_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_like.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_note.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_notebook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_rollback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_like.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_move.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_note.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_notebook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_rename.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_replay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ico/favico-114-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ico/favico-144-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ico/favico-57-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ico/favico-72-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ico/favico.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ico/favico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/08f8695d.select2-spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/156cc09f.spritemap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/314be2a9.divider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/424387e9.sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/424387e9.sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/728a75d4.sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/85509794.jquery.minicolors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a45183a1.select2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a4d7e44b.switch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/acc49d9a.select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ca21017c.sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ca6a03e3.noise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/d85fba58.sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/07cb4eaa.img8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/08f814dd.img12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/0ab5f292.header-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/0c31c9dc.profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/0c31c9dc.uifaces22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/1166769f.img11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/1a6d8f34.img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/212fa4f2.logo-inverse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/2590d12d.img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/3498f5b6.uifaces16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/3a93212e.uifaces3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/3e4d8287.img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/4206586f.stilearn-logo-alt-inverse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/48ae2c25.uifaces1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/48f4bb8e.Stilearn-logo-primary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/4c7c0245.img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/4e4046ef.uifaces15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/4e81cd8d.img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/598c0714.uifaces7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/6139681b.stilearn-logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/637ebb33.stilearn-logo-inverse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/690243f1.uifaces6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/6e33211b.stilearn-logo-alt-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/738072ec.uifaces13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/75ccb40a.img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/782e8c3f.stilearn-logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/7b14b475.img7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/8986f28e.stilearn-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/8af46bf8.uifaces21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/96a1517e.img9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/9c06e6a0.uifaces11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/a0c1c960.uifaces9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/a448a7ef.uifaces10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/b0f7e705.uifaces5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/b7f97507.uifaces4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/c0647842.uifaces17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/ce4e1a92.img10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e05590e7.stilearn-logo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e326dfc8.logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e7dd5f45.uifaces8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e8253fc8.uifaces18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e9cc6303.uifaces20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e9d19848.uifaces19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/f5a2c818.uifaces14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/f61536ae.uifaces2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/f71e3e28.stilearn-logo-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/fb3f89d7.uifaces12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/f5c1e285.spritemap@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/log_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/note.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/base64.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/basevalue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/changepassword.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/collection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/cookie_util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/jquery.nicescroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/js-prototype.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/note.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/regist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/run_prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/share.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/theme-setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/emotion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/emotion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/images/bface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/images/cface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/images/fface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/images/jxface2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/images/tface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/images/wface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/images/yface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/formula/formula.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/formula/formula.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/formula/images/formula.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/image/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/image/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/image/images/upload1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/image/images/upload2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/link/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/map/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/video/images/center_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/video/images/left_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/video/images/none_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/video/images/right_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/video/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/addimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/deletedisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/deleteenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/imglabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/listbackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/rotateleftdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/rotateleftenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/rotaterightdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/rotaterightenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/zh-cn/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/zh-cn/images/imglabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/zh-cn/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/zh-cn/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/zh-cn/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/zh-cn/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/umeditor.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/umeditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/aurora.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/bamboo.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/chord.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/circles.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/complete.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/hello.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/input.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/keys.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/note.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/popcorn.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/pulse.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sounds/synth.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/login_ghost.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/umeditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/dao/TestBookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/dao/TestUserdao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/service/TestUserserivce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/conf/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/conf/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/NoteBookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/Change_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/controller/UserLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/controller/UserRegisterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/dao/BookDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/entity/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/service/BookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/util/NoteException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/util/NoteResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/cn/tedu/cloud_note/util/NoteUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/conf/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/conf/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/mapper/NoteBookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/aspectjrt-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/aspectjweaver-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/jackson-annotations-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/jackson-core-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/jackson-databind-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/mybatis-3.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/spring-aop-3.2.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/spring-beans-3.2.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/spring-context-3.2.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/spring-core-3.2.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/spring-expression-3.2.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/spring-jdbc-3.2.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/spring-tx-3.2.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/spring-web-3.2.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/lib/spring-webmvc-3.2.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/activity.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/activity_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/alert/alert_delete_like.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/alert/alert_delete_note.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/alert/alert_delete_notebook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/alert/alert_delete_rollback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/alert/alert_error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/alert/alert_like.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/alert/alert_move.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/alert/alert_note.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/alert/alert_notebook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/alert/alert_rename.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/alert/alert_replay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/ico/favico-114-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/ico/favico-144-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/ico/favico-57-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/ico/favico-72-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/ico/favico.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/ico/favico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/08f8695d.select2-spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/156cc09f.spritemap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/314be2a9.divider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/424387e9.sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/424387e9.sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/728a75d4.sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/85509794.jquery.minicolors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/a45183a1.select2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/a4d7e44b.switch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/acc49d9a.select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/ca21017c.sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/ca6a03e3.noise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/d85fba58.sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/07cb4eaa.img8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/08f814dd.img12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/0ab5f292.header-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/0c31c9dc.profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/0c31c9dc.uifaces22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/1166769f.img11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/1a6d8f34.img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/212fa4f2.logo-inverse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/2590d12d.img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/3498f5b6.uifaces16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/3a93212e.uifaces3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/3e4d8287.img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/4206586f.stilearn-logo-alt-inverse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/48ae2c25.uifaces1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/48f4bb8e.Stilearn-logo-primary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/4c7c0245.img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/4e4046ef.uifaces15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/4e81cd8d.img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/598c0714.uifaces7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/6139681b.stilearn-logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/637ebb33.stilearn-logo-inverse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/690243f1.uifaces6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/6e33211b.stilearn-logo-alt-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/738072ec.uifaces13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/75ccb40a.img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/782e8c3f.stilearn-logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/7b14b475.img7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/8986f28e.stilearn-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/8af46bf8.uifaces21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/96a1517e.img9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/9c06e6a0.uifaces11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/a0c1c960.uifaces9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/a448a7ef.uifaces10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/b0f7e705.uifaces5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/b7f97507.uifaces4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/c0647842.uifaces17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/ce4e1a92.img10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/e05590e7.stilearn-logo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/e326dfc8.logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/e7dd5f45.uifaces8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/e8253fc8.uifaces18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/e9cc6303.uifaces20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/e9d19848.uifaces19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/f5a2c818.uifaces14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/f61536ae.uifaces2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/f71e3e28.stilearn-logo-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/dummy/fb3f89d7.uifaces12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/f5c1e285.spritemap@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/log_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/note.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/base64.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/basevalue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/changepassword.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/collection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/cookie_util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/jquery.nicescroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/js-prototype.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/note.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/regist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/run_prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/share.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/theme-setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/emotion/emotion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/emotion/emotion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/emotion/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/emotion/images/bface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/emotion/images/cface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/emotion/images/fface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/emotion/images/jxface2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/emotion/images/tface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/emotion/images/wface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/emotion/images/yface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/formula/formula.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/formula/formula.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/formula/images/formula.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/image/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/image/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/image/images/upload1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/image/images/upload2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/link/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/map/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/video/images/center_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/video/images/left_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/video/images/none_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/video/images/right_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/video/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/dialogs/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/addimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/deletedisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/deleteenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/imglabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/listbackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/rotateleftdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/rotateleftenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/rotaterightdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/rotaterightenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/en/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/zh-cn/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/zh-cn/images/imglabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/zh-cn/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/zh-cn/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/zh-cn/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/lang/zh-cn/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/umeditor.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/scripts/ue/umeditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/aurora.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/bamboo.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/chord.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/circles.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/complete.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/hello.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/input.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/keys.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/note.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/popcorn.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/pulse.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/sounds/synth.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/login_ghost.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cloud_note/styles/umeditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/dao/TestBookDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/dao/TestUserdao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/service/TestUserserivce.class" afterDir="false" />
+    <list default="true" id="c6d990d8-5973-445a-8578-0c75af62ab85" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/dao/TestBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dao/TestBookDao.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -507,18 +40,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BookDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/BookDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -528,11 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoteException.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteException.java">
+      <file leaf-file-name="aaaa.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/aaaa.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -612,7 +142,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/log_in.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/book.js" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/BookMpper.xml.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/BookDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/test/dao/TestBookDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml" />
@@ -620,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteResult.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/entity/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/BookDao.java" />
       </list>
     </option>
   </component>
@@ -646,7 +176,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="162" />
     <option name="y" value="25" />
     <option name="width" value="1489" />
@@ -722,6 +252,17 @@
               <item name="tedu" type="462c0819:PsiDirectoryNode" />
               <item name="cloud_note" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="tedu" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_note" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud_note" type="b2602c69:ProjectViewProjectNode" />
@@ -991,8 +532,16 @@
       <workItem from="1528630769046" duration="10975000" />
       <workItem from="1528645920677" duration="629000" />
       <workItem from="1528684395023" duration="2702000" />
-      <workItem from="1528687155301" duration="723000" />
+      <workItem from="1528687155301" duration="2475000" />
     </task>
+    <task id="LOCAL-00001" summary="云笔记">
+      <created>1528688014255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528688014255</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1028,7 +577,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48738000" />
+    <option name="totallyTimeSpent" value="50490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1040,7 +589,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="162" y="25" width="1489" height="991" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1055,7 +604,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32955974" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.35568863" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -1063,8 +612,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32955974" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.66888887" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3288889" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32814372" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3386984" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -1100,13 +649,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/book.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -1398,23 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1451,8 +976,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteException.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/aaaa.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,5 @@
 package test.dao;
 
-import cn.tedu.cloud_note.dao.BookDao;
 import cn.tedu.cloud_note.entity.Book;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
