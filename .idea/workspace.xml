@@ -6,9 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d990d8-5973-445a-8578-0c75af62ab85" name="Default" comment="">
+    <list default="true" id="c6d990d8-5973-445a-8578-0c75af62ab85" name="Default" comment="今天下午写了">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dao/TestBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dao/TestBookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/UserDao.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,38 +40,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aaaa.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/aaaa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoteException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NoteResult.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="325">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bb.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/entity/bb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -150,6 +141,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/entity/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/entity/bb.java" />
       </list>
     </option>
   </component>
@@ -241,17 +234,6 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="tedu" type="462c0819:PsiDirectoryNode" />
               <item name="cloud_note" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_note" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="tedu" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud_note" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud_note" type="b2602c69:ProjectViewProjectNode" />
@@ -532,7 +514,7 @@
       <workItem from="1528630769046" duration="10975000" />
       <workItem from="1528645920677" duration="629000" />
       <workItem from="1528684395023" duration="2702000" />
-      <workItem from="1528687155301" duration="2475000" />
+      <workItem from="1528687155301" duration="3010000" />
     </task>
     <task id="LOCAL-00001" summary="云笔记">
       <created>1528688014255</created>
@@ -541,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528688014255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="今天下午写了aa">
+      <created>1528689753364</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528689753364</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -577,7 +566,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50490000" />
+    <option name="totallyTimeSpent" value="51025000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,6 +579,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="162" y="25" width="1489" height="991" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -633,7 +623,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="云笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="云笔记" />
+    <MESSAGE value="今天下午写了aa" />
+    <option name="LAST_COMMIT_MESSAGE" value="今天下午写了aa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -649,13 +640,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7250">
@@ -940,13 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2700">
@@ -974,13 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/BookDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -991,17 +961,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/aaaa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/util/NoteResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/entity/bb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
