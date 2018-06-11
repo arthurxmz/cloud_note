@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.tedu.cloud_note.dao.UserDao"><!--表示这个mapper实现"cn.tedu.cloud_note.dao.UserDao 接口-->
+	<!-- 根据用户名查找用户  id表示需要实现的方法名字 parameterType表示这个接口方法参数的类型  resultType 表示这个接口的返回结果-->
+	<select id="findByName" parameterType="string" resultType="cn.tedu.cloud_note.entity.User">
+		select * from cn_user
+		where cn_user_name=#{name}
+	</select>
+
+	<insert id="save" parameterType="cn.tedu.cloud_note.entity.User" >
+	insert  into cn_user(
+	cn_user_id, cn_user_name, cn_user_password, cn_user_token, cn_user_desc
+	) values (#{cn_user_id},#{cn_user_name},#{cn_user_password},#{cn_user_desc},#{cn_user_token})
+
+	</insert>
+
+
+</mapper>

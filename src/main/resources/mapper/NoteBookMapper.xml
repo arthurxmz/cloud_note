@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.tedu.cloud_note.dao.BookDao"><!-- 表示这个mapper实现的地方在 "cn.tedu.cloud_note.dao.BookDao" 这个接口-->
+    <!-- 根据用户名查找用户  id表示需要实现的方法名字 parameterType表示这个接口方法参数的类型  resultType 表示这个接口的返回结果-->
+    <select id="findByUserId" parameterType="String" resultType="cn.tedu.cloud_note.entity.Book">
+        select * from cn_notebook
+        where cn_user_id=#{userId}
+        order by cn_notebook_createtime desc
+    </select><!-- 后建立的笔记本想放上面需要order by-->
+
+
+
+
+</mapper>

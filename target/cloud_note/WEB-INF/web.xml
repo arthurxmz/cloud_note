@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+
+  <welcome-file-list>
+    <welcome-file>log_in.html</welcome-file>
+  </welcome-file-list>
+
+
+
+  <!--设置编码，这里只是post级别的编码设置， get级别的编码仍然要在server.xml中配置-->
+  <filter>
+    <filter-name>encodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>encodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+
+
+  <servlet>
+    <servlet-name>springmvc</servlet-name>
+    <servlet-class>
+      org.springframework.web.servlet.DispatcherServlet
+    </servlet-class>
+    <!--这个是指定mvc框架的代码 你必须配置好 pom.xml 远程把代码下载到本机-->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:conf/spring-*.xml</param-value>    <!-- "-*"是为了区别spring文件，不然都在一个文件上会比较乱  -->
+      <!-- 这句话的作用是 ，告诉maven 你的框架具体配置的路径在哪， 然后 maven 启动时候，就会去找你的配置文件，
+      所以你给出了路径 路径就是conf 下面，前面是 spring- 开头的文件 就是你配置框架的-->
+      <!--这个是指定你的路  很明显 你都没有-->
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+    <!-- 1 代表最先启动 ，肯定要早点告诉maven 你的框架的配置路径 -->
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>springmvc</servlet-name>  <!--名字要和上面的一致 -->
+    <url-pattern>*.do</url-pattern><!-- / 这个表示任何请求 url 都用springmvc框架, url的后缀是.do -->
+  </servlet-mapping>
+
+
+</web-app>
