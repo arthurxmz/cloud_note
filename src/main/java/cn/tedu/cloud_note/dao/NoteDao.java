@@ -13,4 +13,6 @@ public interface NoteDao {
     Note findByNoteId(String noteId);
 
     int updateNote(Note note);
+
+    void save(Note note);
 }

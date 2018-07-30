@@ -32,5 +32,12 @@ public class TestNoteService extends TestBase {
         System.out.println(result.getData());
         System.out.println(result.getMsg());
     }
-    
+    @Test
+    public void testUpdate(){
+        String id="019cd9e1-b629-4d8d-afd7-2aa9e2d6afe0";
+        String title="Java笔记";
+        String body="JDBC开发";
+        NoteResult<Object> result= noteService.updateNote(id,title,body);
+        System.out.println(result);
+    }
 }

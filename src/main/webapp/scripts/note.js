@@ -111,7 +111,7 @@ function popNoteMenu() {
 // 创建笔记操作
 function addNote() {
 	// 获取请求参数
-	var userId = getCookie("uid");
+	var userId = getCookie("userId");
 	// 获取选中的笔记本li元素
 	var $li = $("#book_ul a.checked").parent();
 	var bookId = $li.data("bookId");

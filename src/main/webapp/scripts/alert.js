@@ -30,7 +30,7 @@ function alertDeleteNoteWindow(){
 //弹出创建笔记对话框
 function alertAddNoteWindow(){
 	//如果没有选中的笔记本,提示
-	var $a = $("#book_ul a.checked");
+	var $a = $("#book_ul a.checked").parent();
 	if($a.length==0){
 		alert("请选择笔记本");
 	}else{//有选中笔记本，再弹出创建笔记对话框

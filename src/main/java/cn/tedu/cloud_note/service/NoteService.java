@@ -13,4 +13,7 @@ public interface NoteService {
     NoteResult<Note> loadNote(String noteId);
 
     NoteResult<Object> updateNote(String noteId,String title,String body);
+
+    NoteResult<Note> addNote(String userId, String bookId, String title);
+
 }

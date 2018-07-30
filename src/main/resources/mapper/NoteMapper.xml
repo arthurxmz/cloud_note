@@ -24,4 +24,9 @@
             cn_note_last_modify_time=#{cn_note_last_modify_time}
             where cn_note_id=#{cn_note_id}
     </update>
+
+    <insert id="save" parameterType="cn.tedu.cloud_note.entity.Note">
+        insert into cn_note(cn_note_id,cn_notebook_id.cn_user_id,cn_note_status_id,cn_note_type_id,cn_note_title,cn_note_body,cn_note_create_time,cn_note_last_modity_time)values (#{cn_note_id},#{cn_notebook_id},#{cn_user_id},#{cn_note_status_id},#{cn_note_type_id},#{cn_note_title},#{cn_note_body},#{cn_note_create_time},#{cn_note_last_modity_time})
+    </insert>
+
 </mapper>

@@ -58,7 +58,7 @@
 		loadUserBooks();
 		//2.给笔记本li绑定单击处理(动态绑定)
 		$("#book_ul").on("click", "li", loadBookNotes);
-		//3.给笔记li绑定单击处理
+		//3.给笔记li绑定单击笔记加载信息事件
 		$("#note_ul").on("click", "li", loadNote);
 		//4.给"保存笔记"按钮绑定单击处理(静态绑定)
 		$("#save_note").click(updateNote);

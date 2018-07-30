@@ -180,14 +180,14 @@ function updateNote() {
 				dataType : "json",
 				success : function(result) {
 					// 更新成功
-					if (result.status == 1) {
+					if (result.status == 0) {
 						// 更新列表li中标题
-						var sli = "";
-						sli += '<i class="fa fa-file-text-o" title="online" rel="tooltip-bottom"></i>';
-						sli += title;
-						sli += '<button type="button" class="btn btn-default btn-xs btn_position btn_slide_down"><i class="fa fa-chevron-down"></i></button>';
+						var str = "";
+						str += '<i class="fa fa-file-text-o" title="online" rel="tooltip-bottom"></i>';
+						str += title;
+						str += '<button type="button" class="btn btn-default btn-xs btn_position btn_slide_down"><i class="fa fa-chevron-down"></i></button>';
 						// 将选中li元素的a内容替换
-						$li.find("a").html(sli);
+						$li.find("a").html(str);
 						// 提示成功
 						alert(result.msg);
 					}
